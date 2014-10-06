@@ -3,7 +3,6 @@
 
 window.onload = function(){
 
-    //remove everything in here to start your own prototyping
     console.log('Peace, Love and Pixels.');
 
     var container;
@@ -21,14 +20,11 @@ window.onload = function(){
 
         $.ajax({
             url: "http://0.0.0.0:3000/update",
-
-            // the name of the callback parameter, as specified by the YQL service
             jsonp: "callback",
 
             // tell jQuery we're expecting JSONP
             dataType: "jsonp",
 
-            // tell YQL what we want and that we want JSON
             data: JSON.stringify(json),
 
             // work with the response
