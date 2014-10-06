@@ -8,7 +8,7 @@ var config          = require('./config');
 var MongoClient = require('mongodb').MongoClient,
     Server      = require('mongodb').Server,
     Cruds       = require('./cruds').Cruds,
-    prod        = false,
+    prod        = true,
     mongoHost   = 'localhost',
     mongoPort   = 27017,
     cruds;

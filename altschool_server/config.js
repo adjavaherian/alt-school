@@ -10,7 +10,7 @@ config.env = {
         sqlDriver: 'driver://inuwvtvagyudpx:vXvTonI46H-6HBtlUllai726-s@ec2-54-243-49-204.compute-1.amazonaws.com:5432/dapgarjped5d70'
     },
     dev: {
-        sqlDriver: 'driver://amir@localhost/slyce'
+        sqlDriver: 'driver://amir@localhost/alt'
     }
 }
 
